@@ -1,5 +1,6 @@
 $principalColor: rgb(78, 53, 27);
 $secondaryColor: rgb(146, 115, 70);
+$blueColor: rgb(5, 78, 112);
 
 body {
   margin: 3%;
@@ -47,5 +48,55 @@ nav {
   .cover_text {
     font-size: 20px;
     color: $principalColor;
+  }
+}
+
+// menu section
+
+#menu {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  .menu_title {
+    h2 {
+      text-align: center;
+      font-size: 40px;
+      color: $principalColor;
+    }
+  }
+  .menu_card {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    .menu_figure {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .menu_img {
+      img {
+        width: 350px;
+        height: 350px;
+      }
+    }
+    .menu_description {
+      margin: 20px;
+      h2 {
+        margin: 0;
+        text-align: center;
+      }
+      p {
+        margin-top: 5px;
+        font-size: 16px;
+        text-align: center;
+      }
+      .price {
+        color: $blueColor;
+        font-size: 30px;
+      }
+    }
   }
 }

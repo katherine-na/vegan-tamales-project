@@ -35,4 +35,46 @@ nav .nav_list a:hover {
 #intro_cover .cover_text {
   font-size: 20px;
   color: rgb(78, 53, 27);
+}
+
+#menu {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+#menu .menu_title h2 {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(78, 53, 27);
+}
+#menu .menu_card {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+#menu .menu_card .menu_figure {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#menu .menu_card .menu_img img {
+  width: 350px;
+  height: 350px;
+}
+#menu .menu_card .menu_description {
+  margin: 20px;
+}
+#menu .menu_card .menu_description h2 {
+  margin: 0;
+  text-align: center;
+}
+#menu .menu_card .menu_description p {
+  margin-top: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+#menu .menu_card .menu_description .price {
+  color: rgb(5, 78, 112);
+  font-size: 30px;
 }/*# sourceMappingURL=main.css.map */
