@@ -8,6 +8,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
 }
 nav .nav_title h1 {
   color: rgb(78, 53, 27);
@@ -21,4 +22,17 @@ nav .nav_list a {
 }
 nav .nav_list a:hover {
   color: rgb(146, 115, 70);
+}
+
+#intro_cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#intro_cover .cover_img img {
+  width: 100%;
+}
+#intro_cover .cover_text {
+  font-size: 20px;
+  color: rgb(78, 53, 27);
 }/*# sourceMappingURL=main.css.map */
