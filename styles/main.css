@@ -11,12 +11,12 @@ nav {
   margin-bottom: 50px;
 }
 nav .nav_title h1 {
-  color: rgb(78, 53, 27);
+  color: black;
   font-size: 35px;
 }
 nav .nav_list a {
   text-decoration: none;
-  color: rgb(78, 53, 27);
+  color: black;
   margin-inline: 10px;
   font-size: 20px;
 }
@@ -34,7 +34,7 @@ nav .nav_list a:hover {
 }
 #intro_cover .cover_text {
   font-size: 20px;
-  color: rgb(78, 53, 27);
+  color: black;
 }
 
 #menu {
@@ -46,7 +46,7 @@ nav .nav_list a:hover {
   text-align: center;
   font-size: 40px;
   margin: 0;
-  color: rgb(78, 53, 27);
+  color: black;
 }
 #menu .menu_title p {
   font-size: 20px;
@@ -54,18 +54,20 @@ nav .nav_list a:hover {
 }
 #menu .menu_card {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   margin-top: 50px;
 }
 #menu .menu_card .menu_figure {
   display: flex;
   flex-direction: column;
   padding: 20px;
+  margin: 50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #menu .menu_card .menu_img img {
-  width: 350px;
-  height: 350px;
+  width: 420px;
+  height: 410px;
 }
 #menu .menu_card .menu_description {
   margin: 20px;
@@ -94,7 +96,7 @@ nav .nav_list a:hover {
   text-align: center;
   font-size: 40px;
   margin: 0;
-  color: rgb(78, 53, 27);
+  color: black;
 }
 #review .tabs_subtitle p {
   font-size: 20px;
