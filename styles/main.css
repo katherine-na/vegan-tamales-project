@@ -194,24 +194,23 @@ nav .nav_list a:hover {
   nav .nav_list a {
     font-size: 15px;
   }
-}
-#intro_cover .cover_text {
-  font-size: 15px;
-}
-
-#menu {
-  margin-top: 0;
-}
-#menu .menu_title h2 {
-  font-size: 20px;
-}
-#menu .menu_title p {
-  font-size: 15px;
-}
-#menu .menu_card .menu_figure {
-  margin: 0;
-}
-#menu .menu_card .menu_img img {
-  width: 100%;
-  height: 200px;
+  #intro_cover .cover_text {
+    font-size: 15px;
+  }
+  #menu {
+    margin-top: 0;
+  }
+  #menu .menu_title h2 {
+    font-size: 20px;
+  }
+  #menu .menu_title p {
+    font-size: 15px;
+  }
+  #menu .menu_card .menu_figure {
+    margin: 0;
+  }
+  #menu .menu_card .menu_img img {
+    width: 100%;
+    height: 200px;
+  }
 }/*# sourceMappingURL=main.css.map */

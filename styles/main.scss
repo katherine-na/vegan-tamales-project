@@ -235,38 +235,38 @@ nav {
       }
     }
   }
-}
 
-//intro
+  //intro
 
-#intro_cover {
-  .cover_text {
-    font-size: 15px;
-  }
-}
-
-// menu
-#menu {
-  margin-top: 0;
-  .menu_title {
-    h2 {
-      font-size: 20px;
-    }
-    p {
+  #intro_cover {
+    .cover_text {
       font-size: 15px;
     }
   }
-  .menu_card {
-    .menu_figure {
-      margin: 0;
-    }
-    .menu_img {
-      img {
-        width: 100%;
-        height: 200px;
+
+  // menu
+  #menu {
+    margin-top: 0;
+    .menu_title {
+      h2 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 15px;
       }
     }
-    .menu_description {
+    .menu_card {
+      .menu_figure {
+        margin: 0;
+      }
+      .menu_img {
+        img {
+          width: 100%;
+          height: 200px;
+        }
+      }
+      .menu_description {
+      }
     }
   }
 }
