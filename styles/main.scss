@@ -186,6 +186,7 @@ nav {
   .contact_subtitle {
     h2 {
       @include subtitle;
+      margin-bottom: 80px;
     }
   }
   .contact_container {
@@ -212,7 +213,7 @@ nav {
         border-radius: 40px;
       }
     }
-    .img {
+    .contact_img {
       img {
         width: 400px;
       }
@@ -221,6 +222,16 @@ nav {
 }
 
 @media all and (max-width: 800px) {
+  * h2 {
+    font-size: 25px;
+  }
+  * h3 {
+    font-size: 20px;
+  }
+  * p {
+    font-size: 15px;
+  }
+
   // navigation
   nav {
     .nav_title {
@@ -313,11 +324,21 @@ nav {
   //contact
   #contact {
     margin-top: 50px;
+    .contact_subtitle {
+      h2 {
+        margin: 20px 0;
+      }
+    }
     .contact_container {
       flex-direction: column;
-      .img {
+      form {
+        input {
+          width: 200px;
+        }
+      }
+      .contact_img {
         img {
-          width: 300px;
+          display: none;
         }
       }
     }
