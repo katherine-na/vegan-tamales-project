@@ -37,6 +37,32 @@ nav .nav_list a:hover {
   color: black;
 }
 
+#about_us {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#about_us .about_us_subtitle h2 {
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  color: rgb(11, 99, 40);
+}
+#about_us .about_us_text p {
+  text-align: center;
+  font-size: 20px;
+}
+#about_us .about_us_imgs {
+  display: flex;
+  justify-content: center;
+}
+#about_us .about_us_imgs img {
+  width: 550px;
+  height: 700px;
+  margin: 50px;
+}
+
 #menu {
   margin-top: 80px;
   display: flex;
@@ -184,7 +210,7 @@ nav .nav_list a:hover {
   border-radius: 40px;
 }
 #contact .contact_container .contact_img img {
-  width: 400px;
+  width: 500px;
 }
 
 @media all and (max-width: 800px) {
