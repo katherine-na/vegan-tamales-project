@@ -1,5 +1,5 @@
-$principalColor: black;
-$secondaryColor: rgb(146, 115, 70);
+$principalColor: rgb(11, 99, 40);
+$secondaryColor: black;
 $blueColor: rgb(5, 78, 112);
 $backgroundGray: rgba(239, 239, 239, 0.705);
 
@@ -55,14 +55,14 @@ nav {
   }
   .cover_text {
     font-size: 20px;
-    color: $principalColor;
+    color: $secondaryColor;
   }
 }
 
 // menu section
 
 #menu {
-  margin-top: 100px;
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
   .menu_title {
@@ -72,6 +72,7 @@ nav {
     p {
       font-size: 20px;
       text-align: center;
+      margin: 5px;
     }
   }
   .menu_card {
@@ -83,7 +84,7 @@ nav {
       display: flex;
       flex-direction: column;
       padding: 20px;
-      margin: 50px;
+      margin: 40px;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
@@ -115,7 +116,7 @@ nav {
 // review section
 
 #review {
-  margin-top: 100px;
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -133,6 +134,88 @@ nav {
       background-color: $backgroundGray;
       padding: 10px 20px;
       margin: 20px;
+      h3 {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 0;
+      }
+
+      p {
+        font-size: 20px;
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+// location
+
+#location {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  .location_subtitle {
+    margin-bottom: 70px;
+    h2 {
+      @include subtitle;
+    }
+  }
+  .location_wrap {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .location_img {
+      img {
+        width: 700px;
+      }
+    }
+    .location_address {
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+// contact
+
+#contact {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  .contact_subtitle {
+    h2 {
+      @include subtitle;
+    }
+  }
+  .contact_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    form {
+      display: flex;
+      flex-direction: column;
+      label {
+        font-size: 20px;
+        margin-top: 10px;
+      }
+      input {
+        width: 300px;
+        padding: 10px;
+        border-radius: 40px;
+      }
+      button {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 100px;
+        padding: 5px;
+        border-radius: 40px;
+      }
+    }
+    .img {
+      img {
+        width: 400px;
+      }
     }
   }
 }
