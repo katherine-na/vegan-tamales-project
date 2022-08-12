@@ -269,4 +269,57 @@ nav {
       }
     }
   }
+
+  // review
+  #review {
+    margin-top: 30px;
+    .tabs_subtitle {
+      h2 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 15px;
+        text-align: center;
+      }
+    }
+    .tabs {
+      width: 100%;
+      .tabs_item {
+        width: 100%;
+        margin: 0;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  // location
+  #location {
+    margin-top: 50px;
+    .location_subtitle {
+      h2 {
+        font-size: 20px;
+      }
+    }
+    .location_wrap {
+      flex-direction: column;
+      .location_img {
+        img {
+          width: 300px;
+        }
+      }
+    }
+  }
+
+  //contact
+  #contact {
+    margin-top: 50px;
+    .contact_container {
+      flex-direction: column;
+      .img {
+        img {
+          width: 300px;
+        }
+      }
+    }
+  }
 }

@@ -213,4 +213,43 @@ nav .nav_list a:hover {
     width: 100%;
     height: 200px;
   }
+  #review {
+    margin-top: 30px;
+  }
+  #review .tabs_subtitle h2 {
+    font-size: 20px;
+  }
+  #review .tabs_subtitle p {
+    font-size: 15px;
+    text-align: center;
+  }
+  #review .tabs {
+    width: 100%;
+  }
+  #review .tabs .tabs_item {
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+  }
+  #location {
+    margin-top: 50px;
+  }
+  #location .location_subtitle h2 {
+    font-size: 20px;
+  }
+  #location .location_wrap {
+    flex-direction: column;
+  }
+  #location .location_wrap .location_img img {
+    width: 300px;
+  }
+  #contact {
+    margin-top: 50px;
+  }
+  #contact .contact_container {
+    flex-direction: column;
+  }
+  #contact .contact_container .img img {
+    width: 300px;
+  }
 }/*# sourceMappingURL=main.css.map */
