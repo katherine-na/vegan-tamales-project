@@ -1,7 +1,7 @@
 <h1 align="center">Vegan Tamales</h1>
 <p align="center">This project is about vegan tamales, this mexican-food but with vegan twist
 </p>
-<img src="../vegan-tamales-project/images/cover-tamales.png">
+<img src="images/cover-tamales.png">
 
 ## 👀 About this project
 
