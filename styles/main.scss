@@ -219,3 +219,54 @@ nav {
     }
   }
 }
+
+@media all and (max-width: 800px) {
+  // navigation
+  nav {
+    .nav_title {
+      h1 {
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+    .nav_list {
+      a {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+//intro
+
+#intro_cover {
+  .cover_text {
+    font-size: 15px;
+  }
+}
+
+// menu
+#menu {
+  margin-top: 0;
+  .menu_title {
+    h2 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+  .menu_card {
+    .menu_figure {
+      margin: 0;
+    }
+    .menu_img {
+      img {
+        width: 100%;
+        height: 200px;
+      }
+    }
+    .menu_description {
+    }
+  }
+}
