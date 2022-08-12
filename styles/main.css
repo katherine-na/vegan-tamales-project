@@ -156,6 +156,7 @@ nav .nav_list a:hover {
   font-size: 40px;
   margin: 0;
   color: rgb(11, 99, 40);
+  margin-bottom: 80px;
 }
 #contact .contact_container {
   display: flex;
@@ -182,11 +183,20 @@ nav .nav_list a:hover {
   padding: 5px;
   border-radius: 40px;
 }
-#contact .contact_container .img img {
+#contact .contact_container .contact_img img {
   width: 400px;
 }
 
 @media all and (max-width: 800px) {
+  * h2 {
+    font-size: 25px;
+  }
+  * h3 {
+    font-size: 20px;
+  }
+  * p {
+    font-size: 15px;
+  }
   nav .nav_title h1 {
     font-size: 20px;
     text-align: center;
@@ -246,10 +256,16 @@ nav .nav_list a:hover {
   #contact {
     margin-top: 50px;
   }
+  #contact .contact_subtitle h2 {
+    margin: 20px 0;
+  }
   #contact .contact_container {
     flex-direction: column;
   }
-  #contact .contact_container .img img {
-    width: 300px;
+  #contact .contact_container form input {
+    width: 200px;
+  }
+  #contact .contact_container .contact_img img {
+    display: none;
   }
 }/*# sourceMappingURL=main.css.map */
