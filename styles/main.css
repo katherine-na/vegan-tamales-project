@@ -11,17 +11,17 @@ nav {
   margin-bottom: 50px;
 }
 nav .nav_title h1 {
-  color: black;
+  color: rgb(11, 99, 40);
   font-size: 35px;
 }
 nav .nav_list a {
   text-decoration: none;
-  color: black;
+  color: rgb(11, 99, 40);
   margin-inline: 10px;
   font-size: 20px;
 }
 nav .nav_list a:hover {
-  color: rgb(146, 115, 70);
+  color: black;
 }
 
 #intro_cover {
@@ -38,7 +38,7 @@ nav .nav_list a:hover {
 }
 
 #menu {
-  margin-top: 100px;
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
 }
@@ -46,11 +46,12 @@ nav .nav_list a:hover {
   text-align: center;
   font-size: 40px;
   margin: 0;
-  color: black;
+  color: rgb(11, 99, 40);
 }
 #menu .menu_title p {
   font-size: 20px;
   text-align: center;
+  margin: 5px;
 }
 #menu .menu_card {
   display: flex;
@@ -62,7 +63,7 @@ nav .nav_list a:hover {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  margin: 50px;
+  margin: 40px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #menu .menu_card .menu_img img {
@@ -87,7 +88,7 @@ nav .nav_list a:hover {
 }
 
 #review {
-  margin-top: 100px;
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,7 +97,7 @@ nav .nav_list a:hover {
   text-align: center;
   font-size: 40px;
   margin: 0;
-  color: black;
+  color: rgb(11, 99, 40);
 }
 #review .tabs_subtitle p {
   font-size: 20px;
@@ -108,4 +109,79 @@ nav .nav_list a:hover {
   background-color: rgba(239, 239, 239, 0.705);
   padding: 10px 20px;
   margin: 20px;
+}
+#review .tabs .tabs_item h3 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+#review .tabs .tabs_item p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#location {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+}
+#location .location_subtitle {
+  margin-bottom: 70px;
+}
+#location .location_subtitle h2 {
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  color: rgb(11, 99, 40);
+}
+#location .location_wrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#location .location_wrap .location_img img {
+  width: 700px;
+}
+#location .location_wrap .location_address p {
+  font-size: 20px;
+}
+
+#contact {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+}
+#contact .contact_subtitle h2 {
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  color: rgb(11, 99, 40);
+}
+#contact .contact_container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#contact .contact_container form {
+  display: flex;
+  flex-direction: column;
+}
+#contact .contact_container form label {
+  font-size: 20px;
+  margin-top: 10px;
+}
+#contact .contact_container form input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 40px;
+}
+#contact .contact_container form button {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 100px;
+  padding: 5px;
+  border-radius: 40px;
+}
+#contact .contact_container .img img {
+  width: 400px;
 }/*# sourceMappingURL=main.css.map */
