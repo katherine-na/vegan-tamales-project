@@ -55,6 +55,11 @@ nav {
   }
 }
 
+//intro
+#intro {
+  display: flex;
+}
+
 // about us section
 
 #about_us {
@@ -78,71 +83,17 @@ nav {
     justify-content: center;
 
     img {
-      width: 550px;
-      height: 700px;
-      margin: 50px;
+      width: 400px;
+      margin: 30px;
     }
   }
 }
 
-// menu section
-
-#menu {
-  margin-top: 80px;
-  display: flex;
-  flex-direction: column;
-  .menu_title {
-    h2 {
-      @include subtitle;
-    }
-    p {
-      font-size: 20px;
-      text-align: center;
-      margin: 5px;
-    }
-  }
-  .menu_card {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 50px;
-    .menu_figure {
-      display: flex;
-      flex-direction: column;
-      padding: 20px;
-      margin: 40px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-        0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-
-    .menu_img {
-      img {
-        width: 420px;
-        height: 410px;
-      }
-    }
-    .menu_description {
-      margin: 20px;
-      h2 {
-        margin: 0;
-        text-align: center;
-      }
-      p {
-        margin-top: 5px;
-        font-size: 16px;
-        text-align: center;
-      }
-      .price {
-        color: $blueColor;
-        font-size: 25px;
-      }
-    }
-  }
-}
 // review section
 
 #review {
-  margin-top: 80px;
+  margin-top: 500px;
+  width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -169,6 +120,66 @@ nav {
       p {
         font-size: 20px;
         margin-top: 10px;
+      }
+    }
+  }
+}
+
+// menu section
+
+#menu {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  .menu_title {
+    h2 {
+      @include subtitle;
+    }
+    p {
+      font-size: 20px;
+      text-align: center;
+      margin: 5px;
+    }
+  }
+  .menu_card {
+    .vegan,
+    .vegetary {
+      display: flex;
+      align-items: center;
+    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    .menu_figure {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      margin: 40px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .menu_img {
+      img {
+        width: 380px;
+        height: 300px;
+      }
+    }
+    .menu_description {
+      margin: 20px;
+      h2 {
+        margin: 0;
+        text-align: center;
+      }
+      p {
+        margin-top: 5px;
+        font-size: 16px;
+        text-align: center;
+      }
+      .price {
+        color: $blueColor;
+        font-size: 25px;
       }
     }
   }
