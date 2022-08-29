@@ -320,6 +320,11 @@ nav {
       margin-top: 0;
       flex-wrap: nowrap;
       flex-direction: column;
+      .vegan,
+      .vegetary {
+        display: flex;
+        flex-direction: column;
+      }
 
       .menu_figure {
         margin: 30px 0;
