@@ -259,6 +259,11 @@ nav .nav_list a:hover {
     flex-wrap: nowrap;
     flex-direction: column;
   }
+  #menu .menu_card .vegan,
+#menu .menu_card .vegetary {
+    display: flex;
+    flex-direction: column;
+  }
   #menu .menu_card .menu_figure {
     margin: 30px 0;
   }
