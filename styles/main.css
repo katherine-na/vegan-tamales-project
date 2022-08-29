@@ -224,6 +224,11 @@ nav .nav_list a:hover {
   nav .nav_list a {
     font-size: 15px;
   }
+  #intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   #intro_cover .cover_img {
     width: 100%;
   }
@@ -272,7 +277,8 @@ nav .nav_list a:hover {
     height: 200px;
   }
   #review {
-    margin-top: 30px;
+    margin-top: 50px;
+    width: 100%;
   }
   #review .tabs_subtitle h2 {
     font-size: 20px;
